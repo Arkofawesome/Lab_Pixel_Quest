@@ -11,6 +11,7 @@ public class GeoController : MonoBehaviour
     int x_Value = 0;
     int y_Value = 0;
     public int speed = 3;
+    public string nextLevel = "Scene_2";
     // Start is called before the first frame update
     void Start()
     {
@@ -54,9 +55,19 @@ public class GeoController : MonoBehaviour
         switch(collision.tag)
         {
             case "Death":
-                string thisLevel = SceneManager.GetActiveScene().name;
-                SceneManager.LoadScene(thisLevel);
-                break;
+                {
+                    string thisLevel = SceneManager.GetActiveScene().name;
+                    SceneManager.LoadScene(thisLevel);
+                    break;
+
+                }
+            case "Finish":
+                {
+                    SceneManager.LoadScene(nextLevel);
+                    break;
+
+                }
+
 
         }
     }
