@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class GeoController : MonoBehaviour
@@ -47,8 +48,16 @@ public class GeoController : MonoBehaviour
 
     }// end update
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Hit!");
+        //Debug.Log(collision.tag);
+        switch(collision.tag)
+        {
+            case "Death":
+                string thisLevel = SceneManager.GetActiveScene().name;
+                SceneManager.LoadScene(thisLevel);
+                break;
+
+        }
     }
 }// end class
