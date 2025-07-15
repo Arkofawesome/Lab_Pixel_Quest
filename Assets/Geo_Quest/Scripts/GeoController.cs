@@ -7,41 +7,48 @@ using UnityEngine.UIElements;
 public class GeoController : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private SpriteRenderer rbSprite;
     string var1 = "Hello";
     int x_Value = 0;
     int y_Value = 0;
     public int speed = 3;
     public string nextLevel = "Scene_2";
+    Color color = Color.white;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rbSprite = GetComponent<SpriteRenderer>();
+        rbSprite.color = color;
         Debug.Log("Hello World!");
         string var2 = "World!";
         Debug.Log(var1 +" " + var2);
+        if (SceneManager.GetActiveScene().name.Equals("Scene_2"))
+        {
+            nextLevel = "Scene_3";
+        }
         
     }// end start
 
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.W))
-        //{
-        //    transform.position += new Vector3(0, 1, 0);
-        //}
-        //else if (Input.GetKeyDown(KeyCode.A))
-        //{
-        //    transform.position += new Vector3(-1, 0, 0);
-        //}
-        //else if (Input.GetKeyDown(KeyCode.S))
-        //{
-        //    transform.position += new Vector3(0, -1, 0);
-        //}
-        //else if (Input.GetKeyDown(KeyCode.D))
-        //{
-        //    transform.position += new Vector3(1, 0, 0);
-        //}
-        //rb.velocity = Vector2.left;
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Debug.Log("Pressing 1");
+            color = Color.yellow;
+            rbSprite.color = Color.yellow;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            color = Color.cyan;
+            rbSprite.color = Color.cyan;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            color = Color.green;
+            rbSprite.color = Color.green;
+        }
 
         float xInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
