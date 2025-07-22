@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlayerStats : MonoBehaviour
 {
     public string nextLevel = "Scene_2";
+    public int coinCounter = 0;
+    public int health = 3;
     // Start is called before the first frame update
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -24,6 +26,18 @@ public class PlayerStats : MonoBehaviour
                     SceneManager.LoadScene(nextLevel);
                     break;
 
+                }
+            case "Coin":
+                {
+                    coinCounter++;
+                    Destroy(collision.gameObject);
+                    break;
+                }
+            case "Health":
+                {
+                    health++;
+                    Destroy(collision.gameObject); 
+                    break;
                 }
 
 
