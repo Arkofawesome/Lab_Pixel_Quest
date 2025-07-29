@@ -4131,6 +4131,10 @@ PrefabInstance:
       propertyPath: heartImage
       value: 
       objectReference: {fileID: 899547145}
+    - target: {fileID: 1867682675307375883, guid: 80b4ed3a0d8f84e429a2992fb45393dc, type: 3}
+      propertyPath: UITextMeshProUGUI
+      value: 
+      objectReference: {fileID: 127109380}
     - target: {fileID: 4509188581748374260, guid: 80b4ed3a0d8f84e429a2992fb45393dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.524
