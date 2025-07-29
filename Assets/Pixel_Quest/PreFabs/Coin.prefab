@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 5425816721423299342}
   - component: {fileID: 4454416075597609555}
   - component: {fileID: 5967676886890130645}
+  - component: {fileID: 6798667326388563718}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Coin
@@ -263,5 +264,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 13637084297137661, guid: d8c134f8b57485e43887477e056ed049, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6798667326388563718}
   m_SourcePrefab: {fileID: 100100000, guid: d8c134f8b57485e43887477e056ed049, type: 3}
+--- !u!95 &6798667326388563718
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7996537368114211161}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2fbc09b1c7137434f8bc31b91999e679, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
