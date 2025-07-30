@@ -534,81 +534,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1168144559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1168144560}
-  - component: {fileID: 1168144562}
-  - component: {fileID: 1168144561}
-  m_Layer: 5
-  m_Name: Enter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1168144560
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168144559}
-  m_LocalRotation: {x: -0, y: -0, z: 0.00030400557, w: 0.99999994}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1346718011}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.035}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 265.47687, y: -185.39}
-  m_SizeDelta: {x: 31.0161, y: 30.9322}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1168144561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168144559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -363242157, guid: b7ca0b42cb8ba8d4fac86b2ead43d24a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1168144562
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168144559}
-  m_CullTransparentMesh: 1
 --- !u!1 &1346718007
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +632,6 @@ RectTransform:
   - {fileID: 661578065}
   - {fileID: 1536740348}
   - {fileID: 321271756}
-  - {fileID: 1168144560}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -996,7 +920,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 321271757}
-  dialogueLines: []
+  dialogueLines:
+  - "Mr. Sebastian! Welcome to the mayor\u2019s office. My name is Lucy, and I will
+    be your secretary."
+  - There is a big problem on your hands. The streets of Manhattan are crowded and
+    dirty. The people of New York are mad. The trains are underfunded.
+  - But worry not, you have already come up with a solution to these affairs! Simply
+    making congestion pricing zones will deal with most of these issues.
+  - To make a congestion pricing zone, connect 4 or more points on the map. The zone
+    inside will have reduced traffic and increased MTA activity.
+  - "The bars on the right will show you how happy the people of New York are, how
+    much traffic there is on the streets, the amount of pollution, and the revenue
+    for the MTA.\r"
+  - Your goal is to increase the revenue of the MTA and the happiness of the New
+    Yorkers, and to decrease the pollution and traffic.
+  - The score shows how well you are doing. By the end of 4 years, your score has
+    to be greater than 750, or you will have failed your city.
+  - Also, if your score reaches under 200, you will be impeached and automatically
+    lose.
+  - Finally, every half year, I will come to you with a problem we will be facing.
+    You will have to choose what the solution you want will be, and depending on
+    that solution, you will have your score increase or decrease. Good luck on your
+    term as Mayor!
   typingSpeed: 0.05
   typingAudio: {fileID: 1150796027}
 --- !u!4 &2009750778
