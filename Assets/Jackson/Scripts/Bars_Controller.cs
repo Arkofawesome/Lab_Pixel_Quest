@@ -8,8 +8,8 @@ using System.Threading;
 public class Bars_Controller : MonoBehaviour
 {
     //Everybar is out of 500
-    public float pollution = 400f;
-    public float traffic = 400f;
+    public float pollution = 250f;
+    public float traffic = 250f;
     public float popularity = 150f;
     public float revenue = 0f;
 
@@ -53,15 +53,11 @@ public class Bars_Controller : MonoBehaviour
             currentTime = timer;
             if (month == 12)
             {
-                pollution -= 2f;
-                revenue += 5f;
                 month = 1;
                 year++;
             }
             else
             {
-                pollution -= 2f;
-                revenue += 5f;
                 month++;
             }
 
