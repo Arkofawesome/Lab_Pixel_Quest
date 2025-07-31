@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using UnityEditor.Build;
 
 public class Talkingscripts : MonoBehaviour
 {
@@ -17,8 +15,6 @@ public class Talkingscripts : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isTyping = false;
     private Coroutine typingCoroutine;
-
-    public List<GameObject> Options;
 
     void Start()
     {
@@ -39,13 +35,7 @@ public class Talkingscripts : MonoBehaviour
             else
             {
                 currentLineIndex++;
-                if (Options.Count > 0)
-                {
-                    if (Options[currentLineIndex] != null)
-                    {
-                        Options[currentLineIndex].SetActive(true);
-                    }
-                }
+
                 if (currentLineIndex < dialogueLines.Count)
                 {
                     StartTypingCurrentLine();

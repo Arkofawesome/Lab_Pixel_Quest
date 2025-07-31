@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -181.09}
-  m_SizeDelta: {x: 829.4174, y: 158.8156}
+  m_AnchoredPosition: {x: -0.00047875, y: -130.62892}
+  m_SizeDelta: {x: 734, y: 140.4568}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321271757
 MonoBehaviour:
@@ -181,8 +181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ecfdcd18dd6dc344685d6d70c3dd437b, type: 2}
-  m_sharedMaterial: {fileID: 3466801946214483228, guid: ecfdcd18dd6dc344685d6d70c3dd437b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -206,8 +206,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.2
-  m_fontSizeBase: 22.2
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 111.80676, y: 14.908356, z: 134.16907, w: 10.308815}
+  m_margin: {x: 81.99008, y: 0, z: 87.953064, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -290,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: 0}
-  m_SizeDelta: {x: 926, y: 521}
+  m_AnchoredPosition: {x: -0.00049019, y: -0.0002594}
+  m_SizeDelta: {x: 734, y: 413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490621733
 MonoBehaviour:
@@ -365,8 +365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -5.5237, y: 336.78}
-  m_SizeDelta: {x: 251.5548, y: 368.44}
+  m_AnchoredPosition: {x: -0.00049233, y: 282.78}
+  m_SizeDelta: {x: 176.1708, y: 260.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &661578066
 MonoBehaviour:
@@ -406,108 +406,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661578064}
   m_CullTransparentMesh: 1
---- !u!1001 &816173439
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1346718011}
-    m_Modifications:
-    - target: {fileID: 1119131873884385634, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_Name
-      value: Enter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 31.0161
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 30.9322
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.00030400557
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -235
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.035
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
---- !u!224 &816173440 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4061454737285391200, guid: 8cccd42f4ba5da4408475a92f222e7b5, type: 3}
-  m_PrefabInstance: {fileID: 816173439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1150796026
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,8 +528,8 @@ Transform:
   m_GameObject: {fileID: 1150796026}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 403.6333, y: 148.7908, z: -2.867212}
-  m_LocalScale: {x: 1.1299776, y: 1.130631, z: 1}
+  m_LocalPosition: {x: 368.2427, y: 137.83313, z: -2.867212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -734,7 +632,6 @@ RectTransform:
   - {fileID: 661578065}
   - {fileID: 1536740348}
   - {fileID: 321271756}
-  - {fileID: 816173440}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -805,7 +702,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1.1299964, y: 1.1307082}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -820,7 +717,7 @@ Transform:
   m_GameObject: {fileID: 1429282100}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 407.0764, y: 171.7785, z: 0}
+  m_LocalPosition: {x: 371.28964, y: 158.16342, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1030,11 +927,11 @@ MonoBehaviour:
     dirty. The people of New York are mad. The trains are underfunded.
   - But worry not, you have already come up with a solution to these affairs! Simply
     making congestion pricing zones will deal with most of these issues.
-  - You can choose where you want your congestion pricing zone to be every half year.
-    The placement will heavily effect your score over the 4 years.
-  - The bars on the right will show you how happy the people of New York are, how
+  - To make a congestion pricing zone, connect 4 or more points on the map. The zone
+    inside will have reduced traffic and increased MTA activity.
+  - "The bars on the right will show you how happy the people of New York are, how
     much traffic there is on the streets, the amount of pollution, and the revenue
-    for the MTA.
+    for the MTA.\r"
   - Your goal is to increase the revenue of the MTA and the happiness of the New
     Yorkers, and to decrease the pollution and traffic.
   - The score shows how well you are doing. By the end of 4 years, your score has
@@ -1047,7 +944,6 @@ MonoBehaviour:
     term as Mayor!
   typingSpeed: 0.05
   typingAudio: {fileID: 1150796027}
-  Options: []
 --- !u!4 &2009750778
 Transform:
   m_ObjectHideFlags: 0
