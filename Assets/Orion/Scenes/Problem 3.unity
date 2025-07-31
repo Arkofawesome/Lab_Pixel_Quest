@@ -1879,15 +1879,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 321271757}
   dialogueLines:
-  - New Yorkers from Manhattan and Brooklyn are outraged at the cost of congestion
-    pricing!
-  - "They\u2019re saying that it should change with the income of the person, not
-    be a set price for all. They are currently protesting in time square but are
-    moving towards our office now!"
+  - Mayor, high-profile celebrities are complaining about how long it takes to get
+    to their Broadway shows or private events.
+  - "They're tweeting about the city's \u2018transportation disaster.\u2019"
+  - "We\u2019re trending \u2014 and not in a good way.\r"
   - "What can we do?\r"
   typingSpeed: 0.05
   typingAudio: {fileID: 1150796027}
   Options:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 602762998}

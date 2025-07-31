@@ -22,6 +22,7 @@ public class Talkingscripts : MonoBehaviour
 
     void Start()
     {
+        AddScoreBasedDialogue();
         StartTypingCurrentLine();
     }
 
@@ -55,6 +56,23 @@ public class Talkingscripts : MonoBehaviour
                     StartCoroutine(LoadNextSceneAfterDelay(1f));
                 }
             }
+        }
+    }
+
+    void AddScoreBasedDialogue()
+    {
+        if (GameManager.Instance != null)
+        {
+            string feedback = GameManager.Instance.GetScoreFeedback();
+
+            string barSummary = $"📊 Status Report:\n" +
+                                $"Happiness: {(int)(GameManager.Instance.popularity * 100)}%\n" +
+                                $"Traffic: {(int)(GameManager.Instance.traffic * 100)}%\n" +
+                                $"Pollution: {(int)(GameManager.Instance.pollution * 100)}%\n" +
+                                $"Revenue: {(int)(GameManager.Instance.revenue * 100)}%\n";
+
+            dialogueLines.Insert(0, feedback);
+            dialogueLines.Insert(1, barSummary);
         }
     }
 

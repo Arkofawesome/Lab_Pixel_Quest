@@ -1032,11 +1032,10 @@ MonoBehaviour:
     making congestion pricing zones will deal with most of these issues.
   - You can choose where you want your congestion pricing zone to be every half year.
     The placement will heavily effect your score over the 4 years.
-  - The bars on the right will show you how happy the people of New York are, how
-    much traffic there is on the streets, the amount of pollution, and the revenue
-    for the MTA.
-  - Your goal is to increase the revenue of the MTA and the happiness of the New
-    Yorkers, and to decrease the pollution and traffic.
+  - The bars on the right will show you how popular you are, how much traffic there
+    is on the streets, the amount of pollution, and the revenue for the MTA.
+  - Your goal is to increase the revenue of the MTA and your popularity, and to decrease
+    the pollution and traffic.
   - The score shows how well you are doing. By the end of 4 years, your score has
     to be greater than 750, or you will have failed your city.
   - Also, if your score reaches under 200, you will be impeached and automatically

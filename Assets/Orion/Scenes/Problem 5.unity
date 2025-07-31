@@ -1879,11 +1879,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 321271757}
   dialogueLines:
-  - New Yorkers from Manhattan and Brooklyn are outraged at the cost of congestion
-    pricing!
-  - "They\u2019re saying that it should change with the income of the person, not
-    be a set price for all. They are currently protesting in time square but are
-    moving towards our office now!"
+  - Viral videos of rats crawling over people in the subway have caused widespread
+    disgust. Combined with daily delays on the 1, 2, and F lines, trust in the MTA
+    is plummeting.
+  - "The media is calling it the \u2018Rodent Renaissance.\u2019 We need a public
+    response ASAP.\u201D\r"
   - "What can we do?\r"
   typingSpeed: 0.05
   typingAudio: {fileID: 1150796027}
