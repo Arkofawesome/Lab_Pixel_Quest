@@ -41,6 +41,18 @@ EditorBuildSettings:
     path: Assets/Jackson/ChooseZone.unity
     guid: 4dc82069c9d859e4f803e26d3bf49fcd
   - enabled: 1
+    path: Assets/Orion/Scenes/Main_Menu.unity
+    guid: 7e70f03f0fb0f0a498aacb4ef22700be
+  - enabled: 1
+    path: Assets/Orion/Scenes/LucyTutorial.unity
+    guid: d321b03b02084cf48b3258e4ffb0b205
+  - enabled: 1
+    path: Assets/Orion/Scenes/ChooseZone.unity
+    guid: 74d37bd4f22b873478ee0efe5cacb768
+  - enabled: 0
+    path: Assets/Jackson/ChooseZone.unity
+    guid: 4dc82069c9d859e4f803e26d3bf49fcd
+  - enabled: 1
     path: Assets/Jackson/NewYorkCity.unity
     guid: 92b9109f21a8edd4e9b1b4fe80e83016
   - enabled: 1
@@ -64,5 +76,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Orion/Scenes/Problem 7.unity
     guid: 23bd396b647daea4b960e281b49ec09a
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_configObjects: {}
