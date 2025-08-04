@@ -56,6 +56,10 @@ public class Bars_Controller : MonoBehaviour
         }
     }
 
+    public void goToMap()
+    {
+        SceneManager.LoadScene("NewYorkCity");
+    }
     public void skipTime()
     {
         month = nextMonth;
