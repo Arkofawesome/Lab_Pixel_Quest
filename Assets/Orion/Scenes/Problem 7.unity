@@ -542,7 +542,7 @@ MonoBehaviour:
   - 0
   - -10
   nextLevel: NewYorkCity
-  NextProblemLevel: 
+  NextProblemLevel: practice
 --- !u!1 &321271755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   - 0
   - 0
   nextLevel: NewYorkCity
-  NextProblemLevel: 
+  NextProblemLevel: practice
 --- !u!1 &1346718007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   - 0
   - -5
   nextLevel: NewYorkCity
-  NextProblemLevel: 
+  NextProblemLevel: practice
 --- !u!1 &1500503756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   - 0
   - -10
   nextLevel: NewYorkCity
-  NextProblemLevel: 
+  NextProblemLevel: practice
 --- !u!1 &2118681674
 GameObject:
   m_ObjectHideFlags: 0
