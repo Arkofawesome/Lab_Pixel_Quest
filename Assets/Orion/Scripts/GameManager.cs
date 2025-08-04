@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public float traffic = 250f;
     public float pollution = 250f;
     public float revenue = 0f;
+    public string nextProblemLevel = "Problem_1";
 
     // Time
     public int month = 7;
@@ -109,9 +110,9 @@ public class GameManager : MonoBehaviour
     public string GetBarSummary()
     {
         return $"?? City Report:\n" +
-               $"Popularity: {(int)(popularity / MAX_BAR * 100)}%\n" +
-               $"Traffic: {(int)(traffic / MAX_BAR * 100)}%\n" +
-               $"Pollution: {(int)(pollution / MAX_BAR * 100)}%\n" +
+               $"Popularity: {(int)(popularity)}\n" +
+               $"Traffic: {(int)(traffic)}\n" +
+               $"Pollution: {(int)(pollution)}\n" +
                $"Revenue: ${(int)(revenue)}M";
     }
 }

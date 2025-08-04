@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 253534694}
   - component: {fileID: 253534693}
   - component: {fileID: 253534692}
+  - component: {fileID: 253534695}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -472,7 +473,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 253534693}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 253534695}
+        m_TargetAssemblyTypeName: ButtonPassInfo, Assembly-CSharp
+        m_MethodName: PassInfoFunction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &253534693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +524,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253534690}
   m_CullTransparentMesh: 1
+--- !u!114 &253534695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253534690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99842144453eba5498f844dbe15c7653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vals:
+  - 20
+  - 5
+  - 5
+  - -10
+  nextLevel: NewYorkCity
+  NextProblemLevel: Problem 5
 --- !u!1 &321271755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1274,7 @@ GameObject:
   - component: {fileID: 1213588618}
   - component: {fileID: 1213588617}
   - component: {fileID: 1213588616}
+  - component: {fileID: 1213588619}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1312,7 +1345,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1213588617}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1213588619}
+        m_TargetAssemblyTypeName: ButtonPassInfo, Assembly-CSharp
+        m_MethodName: PassInfoFunction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1213588617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1351,6 +1396,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213588614}
   m_CullTransparentMesh: 1
+--- !u!114 &1213588619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213588614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99842144453eba5498f844dbe15c7653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vals:
+  - -30
+  - 0
+  - 0
+  - 0
+  nextLevel: NewYorkCity
+  NextProblemLevel: Problem 5
 --- !u!1 &1346718007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,6 +1534,7 @@ GameObject:
   - component: {fileID: 1434478144}
   - component: {fileID: 1434478143}
   - component: {fileID: 1434478142}
+  - component: {fileID: 1434478145}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1540,7 +1605,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1434478143}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1434478145}
+        m_TargetAssemblyTypeName: ButtonPassInfo, Assembly-CSharp
+        m_MethodName: PassInfoFunction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1434478143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,6 +1656,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434478140}
   m_CullTransparentMesh: 1
+--- !u!114 &1434478145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434478140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99842144453eba5498f844dbe15c7653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vals:
+  - 30
+  - 10
+  - 10
+  - -20
+  nextLevel: NewYorkCity
+  NextProblemLevel: Problem 5
 --- !u!1 &1500503756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,6 +1992,8 @@ MonoBehaviour:
   Options:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 602762998}
 --- !u!4 &2009750778
 Transform:
@@ -1924,6 +2022,7 @@ GameObject:
   - component: {fileID: 2103387534}
   - component: {fileID: 2103387533}
   - component: {fileID: 2103387532}
+  - component: {fileID: 2103387535}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1994,7 +2093,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2103387533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2103387535}
+        m_TargetAssemblyTypeName: ButtonPassInfo, Assembly-CSharp
+        m_MethodName: PassInfoFunction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2103387533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,6 +2144,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103387530}
   m_CullTransparentMesh: 1
+--- !u!114 &2103387535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103387530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99842144453eba5498f844dbe15c7653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vals:
+  - -40
+  - 0
+  - 0
+  - 0
+  nextLevel: NewYorkCity
+  NextProblemLevel: Problem 5
 --- !u!1 &2118681674
 GameObject:
   m_ObjectHideFlags: 0
