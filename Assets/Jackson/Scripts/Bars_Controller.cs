@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class Bars_Controller : MonoBehaviour
 {
+    public GameManager gameManager;
     //Everybar is out of 500
     public float pollution = 250f;
     public float traffic = 250f;
@@ -33,10 +34,19 @@ public class Bars_Controller : MonoBehaviour
     public Image trafficImg;
     public Image pollutionImg;
 
-
+    public int revPerMonth = 10;
 
     void Start()
     {
+        gameManager = GameManager.Instance;
+
+        popularity = gameManager.popularity;
+        traffic = gameManager.traffic;
+        pollution = gameManager.pollution;
+        revenue = gameManager.revenue;
+        month = gameManager.month;
+        year = gameManager.year;
+
         revenueImg = GameObject.Find("RevenueBar").GetComponent<Image>();
         popularityImg = GameObject.Find("PopularityBar").GetComponent<Image>();
         trafficImg = GameObject.Find("TrafficBar").GetComponent<Image>();
@@ -54,16 +64,22 @@ public class Bars_Controller : MonoBehaviour
         {
             nextYear = year;
         }
+        dateText.text = "" + month + " / " + year;
     }
 
     public void goToMap()
     {
+        gameManager.updateData(popularity, traffic, pollution, revenue, month, year);
         SceneManager.LoadScene("NewYorkCity");
     }
     public void skipTime()
     {
+
         month = nextMonth;
         year = nextYear;
+        GameManager.Instance.month = month;
+        GameManager.Instance.year = year;
+
     }
     // Update is called once per frame
     void Update()
@@ -72,8 +88,9 @@ public class Bars_Controller : MonoBehaviour
 
         if (currentTime < 0)
         {
-            Debug.Log("Its been 10 secs");
+            Debug.Log(revenue);
             currentTime = timer;
+            revenue += revPerMonth;
             if (month == 12)
             {
                 month = 1;
@@ -86,10 +103,12 @@ public class Bars_Controller : MonoBehaviour
 
             updateDate(month, year);
         }
-        
+
         if (month == nextMonth && year == nextYear)
         {
             Debug.Log("Loading next scene");
+            GameManager.Instance.month = month;
+            GameManager.Instance.year = year;
             SceneManager.LoadScene(GameManager.Instance.nextProblemLevel);
         }
     }
