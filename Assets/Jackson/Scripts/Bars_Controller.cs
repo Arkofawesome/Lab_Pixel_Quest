@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Threading;
+using UnityEngine.SceneManagement;
 
 public class Bars_Controller : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class Bars_Controller : MonoBehaviour
     public int month = 7;
     public int year = 2025;
 
+    public int nextMonth;
+    public int nextYear;
 
     public float currentTime = 10f;
     public float timer = 10f;
@@ -40,8 +43,24 @@ public class Bars_Controller : MonoBehaviour
         pollutionImg = GameObject.Find("PollutionBar").GetComponent<Image>();
         updateBars();
         dateText = GameObject.Find("DateText").GetComponent<TextMeshProUGUI>();
+
+        nextMonth = month + 6;
+        if (nextMonth > 12)
+        {
+            nextMonth = nextMonth % 12;
+            nextYear = year + 1;
+        }
+        else
+        {
+            nextYear = year;
+        }
     }
 
+    public void skipTime()
+    {
+        month = nextMonth;
+        year = nextYear;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -64,6 +83,11 @@ public class Bars_Controller : MonoBehaviour
             updateDate(month, year);
         }
         
+        if (month == nextMonth && year == nextYear)
+        {
+            Debug.Log("Loading next scene");
+            SceneManager.LoadScene("LucyTutorial");
+        }
     }
 
     public void updateDate(int month, int year)
