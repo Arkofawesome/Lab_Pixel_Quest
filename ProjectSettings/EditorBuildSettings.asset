@@ -29,7 +29,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Orion/Scenes/Main_Menu.unity
     guid: 7e70f03f0fb0f0a498aacb4ef22700be
+<<<<<<< Updated upstream
   - enabled: 0
+=======
+  - enabled: 1
+>>>>>>> Stashed changes
     path: Assets/Orion/Scenes/LucyTutorial.unity
     guid: d321b03b02084cf48b3258e4ffb0b205
   - enabled: 1
