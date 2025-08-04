@@ -1027,6 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 336a472b83dbeb44bb0b3c2d068b4679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
   pollution: 250
   traffic: 250
   popularity: 150
@@ -1042,6 +1043,7 @@ MonoBehaviour:
   popularityImg: {fileID: 0}
   trafficImg: {fileID: 0}
   pollutionImg: {fileID: 0}
+  revPerMonth: 10
 --- !u!114 &1194659467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,6 +1061,7 @@ MonoBehaviour:
   zone2: {fileID: 0}
   zone3: {fileID: 0}
   zone4: {fileID: 0}
+  isZoneChooser: 1
 --- !u!1 &1242282304
 GameObject:
   m_ObjectHideFlags: 0
