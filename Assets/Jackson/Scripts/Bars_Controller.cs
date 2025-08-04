@@ -90,7 +90,7 @@ public class Bars_Controller : MonoBehaviour
         if (month == nextMonth && year == nextYear)
         {
             Debug.Log("Loading next scene");
-            SceneManager.LoadScene("LucyTutorial");
+            SceneManager.LoadScene(GameManager.Instance.nextProblemLevel);
         }
     }
 

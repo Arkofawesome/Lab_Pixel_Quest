@@ -69,10 +69,10 @@ public class Talkingscripts : MonoBehaviour
             string feedback = GameManager.Instance.GetScoreFeedback();
 
             string barSummary = $"📊 Status Report:\n" +
-                                $"Happiness: {(int)(GameManager.Instance.popularity * 100)}%\n" +
-                                $"Traffic: {(int)(GameManager.Instance.traffic * 100)}%\n" +
-                                $"Pollution: {(int)(GameManager.Instance.pollution * 100)}%\n" +
-                                $"Revenue: {(int)(GameManager.Instance.revenue * 100)}%\n";
+                                $"Happiness: {(int)(GameManager.Instance.popularity)}\n" +
+                                $"Traffic: {(int)(GameManager.Instance.traffic)}\n" +
+                                $"Pollution: {(int)(GameManager.Instance.pollution)} \n" +
+                                $"Revenue: {(int)(GameManager.Instance.revenue)} \n";
 
             dialogueLines.Insert(0, feedback);
             dialogueLines.Insert(1, barSummary);
