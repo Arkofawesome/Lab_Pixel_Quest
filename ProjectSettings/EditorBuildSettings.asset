@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes:
   - enabled: 0
     path: Assets/Scenes/MenuLevel.unity
@@ -32,4 +33,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jackson/LucyTutorial.unity
     guid: 8b1a1470c0807d340a4d55cdfd11a275
+=======
+  m_Scenes: []
+>>>>>>> Stashed changes
   m_configObjects: {}
