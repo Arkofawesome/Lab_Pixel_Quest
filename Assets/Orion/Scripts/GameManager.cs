@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public float traffic = 250f;
     public float pollution = 250f;
     public float revenue = 0f;
+    public string nextProblemLevel = "Problem_1";
 
     // Time
     public int month = 7;
@@ -22,6 +23,8 @@ public class GameManager : MonoBehaviour
 
     // Time tracking for mid-year/quarterly decisions
     public int halfYearCount = 0;
+
+    public int zone = 1;
 
     private void Awake()
     {
@@ -42,6 +45,20 @@ public class GameManager : MonoBehaviour
         score += value;
     }
 
+    public void updateData(float popularity, float traffic, float pollution, float revenue, int month, int year)
+    {
+        this.popularity = popularity;
+        this.traffic = traffic;
+        this.pollution = pollution;
+        this.revenue = revenue;
+        this.month = month;
+        this.year = year;
+    }
+
+    public void updateZone(int zone)
+    {
+        this.zone = zone;
+    }
     public void UpdateBarValues(float popularityDelta, float trafficDelta, float pollutionDelta, float revenueDelta)
     {
         popularity = Mathf.Clamp(popularity + popularityDelta, 0f, MAX_BAR);
@@ -82,7 +99,7 @@ public class GameManager : MonoBehaviour
         else if (score <= 200)
             return "You're doing horribly. People are calling for your resignation.";
         else
-            return "You’re doing okay, but the pressure’s mounting.";
+            return "Youï¿½re doing okay, but the pressureï¿½s mounting.";
     }
 
     public string GetBarPerformanceFeedback()
@@ -102,16 +119,16 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            return "You’re holding things together, but there’s a long way to go.";
+            return "You\'re holding things together, but there\'s a long way to go.";
         }
     }
 
     public string GetBarSummary()
     {
         return $"?? City Report:\n" +
-               $"Popularity: {(int)(popularity / MAX_BAR * 100)}%\n" +
-               $"Traffic: {(int)(traffic / MAX_BAR * 100)}%\n" +
-               $"Pollution: {(int)(pollution / MAX_BAR * 100)}%\n" +
+               $"Popularity: {(int)(popularity)}\n" +
+               $"Traffic: {(int)(traffic)}\n" +
+               $"Pollution: {(int)(pollution)}\n" +
                $"Revenue: ${(int)(revenue)}M";
     }
 }
