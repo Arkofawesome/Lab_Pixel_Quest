@@ -4,12 +4,46 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   m_Scenes:
   - enabled: 0
     path: Assets/Scenes/MenuLevel.unity
     guid: 2fa55462fc719a848b33dd6097f67562
+  - enabled: 1
+    path: Assets/Orion/Scenes/Main_Menu.unity
+    guid: 7e70f03f0fb0f0a498aacb4ef22700be
+  - enabled: 1
+    path: Assets/Orion/Scenes/LucyTutorial.unity
+    guid: d321b03b02084cf48b3258e4ffb0b205
+  - enabled: 1
+    path: Assets/Orion/Scenes/ChooseZone.unity
+    guid: 74d37bd4f22b873478ee0efe5cacb768
+  - enabled: 1
+    path: Assets/Jackson/NewYorkCity.unity
+    guid: 92b9109f21a8edd4e9b1b4fe80e83016
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 1.unity
+    guid: ed118d513c46a8c40b8a4c5fbef37c46
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 2.unity
+    guid: af4a072d7f3d9d5498a60e76fe07d5d9
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 3.unity
+    guid: ce98ecbbd9eaf08458504171814f29e2
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 4.unity
+    guid: 374ccd791065a8245ba3f7db80bc3e1f
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 5.unity
+    guid: 98870827e9e982943b70fb6e6d4a49ff
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 6.unity
+    guid: 57c6dab6d391d7d4cbbcf9987b00fa58
+  - enabled: 1
+    path: Assets/Orion/Scenes/Problem 7.unity
+    guid: 23bd396b647daea4b960e281b49ec09a
+  - enabled: 0
+    path: Assets/Jackson/LucyTutorial.unity
+    guid: 8b1a1470c0807d340a4d55cdfd11a275
   - enabled: 0
     path: Assets/Pixel_Quest/Scenes/Pixel_Quest_TestLevel.unity
     guid: 2cda990e2423bbf4892e6590ba056729
@@ -28,16 +62,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Hands-On Homework #3/Scenes/Graveyard.unity
     guid: 45c4c80ef7e743d4e9928d5e9ef633a8
-  - enabled: 1
-    path: Assets/Jackson/NewYorkCity.unity
-    guid: 92b9109f21a8edd4e9b1b4fe80e83016
-  - enabled: 1
-    path: Assets/Jackson/LucyTutorial.unity
-    guid: 8b1a1470c0807d340a4d55cdfd11a275
-=======
-  m_Scenes: []
->>>>>>> Stashed changes
-=======
-  m_Scenes: []
->>>>>>> Stashed changes
   m_configObjects: {}
