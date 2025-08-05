@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public float traffic = 250f;
     public float pollution = 250f;
     public float revenue = 0f;
-    public string nextProblemLevel = "Problem_1";
+    public string nextProblemLevel = "Problem 1";
 
     // Time
     public int month = 7;
