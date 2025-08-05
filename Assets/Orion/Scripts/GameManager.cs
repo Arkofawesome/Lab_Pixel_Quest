@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
         else if (score <= 200)
             return "You're doing horribly. People are calling for your resignation.";
         else
-            return "You�re doing okay, but the pressure�s mounting.";
+            return "You're doing okay, but the pressure's mounting.";
     }
 
     public string GetBarPerformanceFeedback()
@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            return "You\'re holding things together, but there\'s a long way to go.";
+            return "You're holding things together, but there\'s a long way to go.";
         }
     }
 
